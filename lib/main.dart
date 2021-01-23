@@ -1,5 +1,6 @@
 import 'package:DeliveryApp/pages/detalles.dart';
 import 'package:DeliveryApp/pages/home.dart';
+import 'package:DeliveryApp/pages/menu.dart';
 import 'package:DeliveryApp/pages/populares.dart';
 import 'package:DeliveryApp/pages/recomendados.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Poppins'
       ),
-      home: HomePage(),
+      home: MenuPage(),
       routes: {
         'home': (_)=>HomePage(),
         'detalles': (_)=>DetallesPage(),
